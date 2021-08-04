@@ -1,0 +1,51 @@
+body {
+	background-image: linear-gradient(to right, #007399, #ccf2ff);
+}
+
+/********** header **********/
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	padding-bottom: 10px;
+}
+
+.navbar-brand {
+	padding-top: auto;
+	padding-bottom: auto;
+}
+.navbar-brand h1 {	
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: dodgerblue;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+button.navbar-toggle {
+	margin-top: 15px;
+}
+button.navbar-toggle, .icon-bar {
+	border: 1px solid #4dd2ff;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #4dd2ff;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+	color: black;
+}
+/********** end header **********/
+
+
+
+
+/********** div#main-content .container **************/
+#main-content h2 {
+	margin-top: 0;
+}
+/********** end div#main-content .container **********/
